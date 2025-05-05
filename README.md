@@ -1,2 +1,10 @@
-# pyexplain-cli
-PyExplain CLI is an open-source command-line tool that uses OpenAI's API to explain Python code and errors in plain English. It helps learners and junior developers understand what their code does and how to fix issues, directly from the terminal.
+# Pyexplain-Cli
+
+Explain Python code or error messages in plain English via the command line.
+
+## Setup
+```bash
+pip install -r requirements.txt
+export OPENAI_API_KEY=your-key
+python cli.py
+```
